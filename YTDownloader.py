@@ -18,15 +18,11 @@ streams = yt.streams.filter(only_audio=True)
 for s in streams:
 	print(s)
 
-
-
-
-print("Input itag", flush = True)
-itag = int(input())
-
 print("Getting The Stream", flush = True)
 
-stream = yt.streams.get_by_itag(itag)
+stream = yt.streams.last()
+
+print("itag = " + str(stream.itag))
 
 print("Download Started", flush = True)
 
