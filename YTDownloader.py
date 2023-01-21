@@ -30,7 +30,7 @@ def DownloadMP3(s):
 
 # Main Code
 
-inputFile = open("input.txt", "r")
+inputFile = open("link.txt", "r")
 logFile = open("log.txt", "w")
 DownloadMP3(inputFile.readline())
 
