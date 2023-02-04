@@ -73,7 +73,7 @@ def mainCode():
 
 	t = timer.Stop()
 
-	log(f"Execution Time : {round(t, 2)} second ({getMs(t)} ms)")
+	log(f"Execution Time : {round(t, 2)} seconds ({getMs(t)} ms)")
 
 	log("Program Terminated Safely.")
 	input()
